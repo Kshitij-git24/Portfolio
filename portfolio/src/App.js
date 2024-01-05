@@ -1,12 +1,10 @@
-import { Navbar } from "./components/Navbar";
 import { Content } from "./components/Content";
+import { Sidebar } from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      {/* <nav>
-        <Navbar />
-      </nav>  */}
       <Content />
     </div>
   );
