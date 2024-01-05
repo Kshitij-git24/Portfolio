@@ -1,0 +1,28 @@
+.navbar{
+    height: 100px;
+    background-color: purple;
+
+    .wrapper{
+        max-width:1300px;
+        display: flex;
+        margin:auto;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        .logo{
+            display: flex;
+            gap:10px;
+            
+        }
+        .logo img{
+            width: 35px;
+            height: 35px;
+            display:flex;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+    }
+
+    
+}
