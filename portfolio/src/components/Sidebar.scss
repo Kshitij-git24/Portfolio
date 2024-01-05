@@ -3,9 +3,12 @@
     font-display: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    color:black;
-
+    // background-color: white;
+    position: fixed;
+    width:100px;
+    height: 100px;
+    z-index: 1000;
+    
     .bg{
         position: fixed;
         top: 0;
@@ -13,6 +16,7 @@
         bottom: 0;
         width: 400px;
         background:white;
+
         .links{
             position: absolute;
             width: 100%;
@@ -30,7 +34,15 @@
                 color:blue
             }
         }
-
+        button {
+            width: 50px;height: 50px;
+            border-radius: 50%;
+            position:fixed;
+            top: 25px;
+            left: 25px;
+            margin:auto
+            
+        }
         button img{
             width: 50px;height: 50px;
             border-radius: 50%;
@@ -40,11 +52,11 @@
             background-color: white;
             border:none;
             color: black;
+            margin:auto
         }
     
         button:hover{
             cursor: pointer;
-            
         }
 
         

@@ -10,15 +10,15 @@ html{
     font-family: "DM Sans", sans-serif, Arial, Helvetica;
 }
 
-// nav {
-//     text-align: center;
-//     position: fixed; /* Fix the navigation bar to the top */
-//     top: 0;
-//     width: 100%;
-//     background-color: #333; /* Add a background color for the navigation bar */
-//     padding: 10px; /* Add padding for better visibility */
-//     z-index: 1000; /* Ensure the navigation bar is above other elements */
-// }
+nav {
+    text-align: center;
+    position: fixed; /* Fix the navigation bar to the top */
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Add a background color for the navigation bar */
+    padding: 10px; /* Add padding for better visibility */
+    z-index: 1000; /* Ensure the navigation bar is above other elements */
+}
 
 body{
     background-color: black;

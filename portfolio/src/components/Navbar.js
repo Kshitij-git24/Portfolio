@@ -12,7 +12,10 @@ export default function Navbar() {
           <a href="https://github.com/Kshitij-git24" target="_blank">
             <img src={GitHub} alt="GitHub" />
           </a>
-          <a href="https://linkedin.com/in/kshitij-kiran-chaudhari">
+          <a
+            href="https://linkedin.com/in/kshitij-kiran-chaudhari"
+            target="_blank"
+          >
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
         </div>
