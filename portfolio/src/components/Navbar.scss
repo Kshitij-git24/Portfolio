@@ -1,6 +1,6 @@
 .navbar{
     height: 100px;
-    background-color: purple;
+    background-color: #0c0c1d;
 
     .wrapper{
         max-width:1300;
@@ -13,8 +13,9 @@
         span{
             position: relative;
             margin: auto;
-            font-family: Rubik Glitch ;
-            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace ;
+            font-size: 50px;
+            color: Cyan;
         }
 
         .logo{

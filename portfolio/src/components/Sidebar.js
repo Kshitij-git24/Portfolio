@@ -21,7 +21,7 @@ export const Sidebar = () => {
       clipPath: "circle(25px at 50px 50px)",
       transition: {
         type: "spring",
-        stiffness: 400,
+        stiffness: 200,
         damping: 40,
       },
     },
@@ -30,7 +30,7 @@ export const Sidebar = () => {
     <motion.div className="sidebar" animate={open ? "open" : "closed"}>
       <motion.div className="bg" variants={variants}>
         <motion.div className="links">
-          <Links />
+          <Links props={setOpen} />
         </motion.div>
         <button onClick={() => setOpen(!open)}>
           <img
