@@ -3,11 +3,14 @@ import { Sidebar } from "./Sidebar";
 import GitHub from "../images/github.png";
 import LinkedIn from "../images/linkedin.png";
 export default function Navbar() {
+  const variants = {
+    animate: {},
+  };
   return (
     <div className="navbar">
       <Sidebar />
       <div className="wrapper">
-        <span>Welcome</span>
+        <span></span>
         <div className="logo">
           <a href="https://github.com/Kshitij-git24" target="_blank">
             <img src={GitHub} alt="GitHub" />
