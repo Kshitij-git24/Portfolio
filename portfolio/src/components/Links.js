@@ -43,6 +43,8 @@ export default function Links(props) {
           key={item}
           onClick={handleLinkClick}
           variants={itemVariants}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 5 }}
         >
           {item}
         </motion.a>

@@ -1,11 +1,16 @@
 import React from "react";
 import "./Home.scss";
+import { motion } from "framer-motion";
 import Scroll from "../../images/scroll.png";
 const Home = () => {
   return (
     <div className="home">
       <div className="wrapper">
-        <div className="textCon">
+        <motion.div
+          className="textCon"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+        >
           <h2 className="h2-1">Hey,</h2>
           <h2 className="h2-2">I'm Kshitij</h2>
           <h1>
@@ -13,7 +18,7 @@ const Home = () => {
             better tomorrow. Looking for positions where I can make a meaningful
             impact.
           </h1>
-        </div>
+        </motion.div>
         {/* <div className="summary">
           <p>Hello, Let me walk you through my projects!</p>
         </div> */}
