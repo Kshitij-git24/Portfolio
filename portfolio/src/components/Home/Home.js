@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { motion } from "framer-motion";
-import Scroll from "../../images/scroll.png";
+
 const Home = () => {
   return (
     <div className="home">
@@ -19,8 +19,8 @@ const Home = () => {
             impact.
           </h1>
         </motion.div>
-        {/* <div className="summary">
-          <p>Hello, Let me walk you through my projects!</p>
+        {/* <div className="resume">
+          
         </div> */}
       </div>
     </div>
