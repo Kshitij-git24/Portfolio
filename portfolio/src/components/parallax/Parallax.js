@@ -11,10 +11,10 @@ export const Parallax = ({ type }) => {
   });
   // console.log("scrollYprog", scrollYProgress);
 
-  const yText = useTransform(scrollYProgress, [0, 1], ["0px", "1000px"]);
+  const yText = useTransform(scrollYProgress, [0, 1], ["0px", "800px"]);
   const yImg = useTransform(scrollYProgress, [0, 1], ["0px", "1500px"]);
   // const opacity = useTransform(scrollYProgress, [0, 1], ["1000%", "0%"]);
-  const opacity = useTransform(scrollYProgress, [0, 1], [-0.9, 4]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [-0.9, 2]);
 
   const fadeInFromTop = {
     hidden: { opacity: 0, y: -50 },
