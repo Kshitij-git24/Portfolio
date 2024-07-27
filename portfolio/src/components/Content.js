@@ -4,8 +4,26 @@ import Home from "./Home/Home";
 import { Parallax } from "./parallax/Parallax";
 import Projects from "./Projects/Projects.js";
 import { projects_data } from "../ProjectsList/projects.js";
+import { useEffect, useState } from "react";
 
 export const Content = () => {
+  const [user, setUser] = useState([]);
+
+  // const fetchRepos = () => {
+  //   console.log(1);
+  //   fetch(`https://api.github.com/users/Kshitij-git24/repos`)
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       setUser(data);
+  //     });
+  // };
+
+  // useEffect(() => {
+  //   fetchRepos();
+  // }, []);
+
+  // console.log(user);
+
   return (
     <div>
       <section id="Homepage">
